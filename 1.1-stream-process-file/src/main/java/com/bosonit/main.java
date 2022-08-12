@@ -1,14 +1,13 @@
+package com.bosonit;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.sql.SQLOutput;
-import java.util.Arrays;
-import java.util.Optional;
 
 public class main {
     public static void main(String[] args) throws IOException {
 
-        File doc = new File("C:\\Users\\carlos.martos\\IdeaProjects\\Java\\1.1-stream-process-file\\src\\main\\java\\gente.txt");
+        File doc = new File("C:\\Users\\carlos.martos\\IdeaProjects\\Java\\1.1-stream-process-file\\src\\main\\java\\com\\bosonit\\gente.txt");
         BufferedReader obj = new BufferedReader(new FileReader(doc));
 
         String fila;
